@@ -1,1 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @import 'tailwindcss';
+
+@theme {
+    --color-background: hsl(45 20% 97%);
+    --color-foreground: hsl(186 45% 15%);
+
+    --color-card: hsl(0 0% 100%);
+    --color-card-foreground: hsl(186 45% 15%);
+
+    --color-popover: hsl(0 0% 100%);
+    --color-popover-foreground: hsl(186 45% 15%);
+
+    --color-primary: hsl(186 35% 28%);
+    --color-primary-foreground: hsl(0 0% 100%);
+
+    --color-secondary: hsl(52 95% 65%);
+    --color-secondary-foreground: hsl(186 45% 15%);
+
+    --color-muted: hsl(167 40% 90%);
+    --color-muted-foreground: hsl(186 25% 45%);
+
+    --color-accent: hsl(23 85% 75%);
+    --color-accent-foreground: hsl(186 45% 15%);
+
+    --color-mint: hsl(167 53% 78%);
+    --color-mint-foreground: hsl(186 45% 15%);
+
+    --color-destructive: hsl(0 84.2% 60.2%);;
+    --color-destructive-foreground: hsl(0 0% 100%);
+
+    --color-border: hsl(167 30% 85%);
+    --color-input: hsl(167 30% 90%);
+    --color-ring: hsl(186 35% 28%);
+
+    --radius: 1rem;
+
+    --color-sidebar-background: hsl(0 0% 98%);
+    --color-sidebar-foreground: hsl(240 5.3% 26.1%);
+    --color-sidebar-primary: hsl(240 5.9% 10%);
+    --color-sidebar-primary-foreground: hsl(0 0% 98%);
+    --color-sidebar-accent: hsl(240 4.8% 95.9%);
+    --color-sidebar-accent-foreground: hsl(240 5.9% 10%);
+    --color-sidebar-border: hsl(220 13% 91%);
+    --color-sidebar-ring: hsl(217.2 91.2% 59.8%);
+
+    --font-varela: 'Varela Round', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
+
+}
+
+
+
+
+.scroll {
+	@apply bg-background/95 shadow-md backdrop-blur-md;
+}
+
+.today {
+    @apply border-l-4 border-l-secondary bg-secondary/5
+}
+
+
+
+
+@layer base {
+
+    body {
+    @apply bg-background text-foreground font-varela;
+    font-feature-settings: "rlig" 1, "calt" 1;
+
+    }
+
+    strong {
+        @apply font-bold;
+    }
+
+    input, textarea {
+        @apply appearance-none;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }    
+
+}
