@@ -25,10 +25,10 @@
 
 		<div class="space-y-16">
 			<div>
-				<h4 class="mb-6 flex items-center gap-3 text-2xl font-bold text-primary">
+				<h3 class="mb-6 flex items-center gap-3 text-2xl font-bold text-primary">
 					<span class="text-3xl">🌈</span>
 					SensoWybaw
-				</h4>
+				</h3>
 				<div class="grid grid-cols-2 gap-4 md:grid-cols-4">
 					{#each Array(4) as _, i}
 						<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
@@ -48,10 +48,10 @@
 			</div>
 
 			<div>
-				<h4 class="mb-6 flex items-center gap-3 text-2xl font-bold text-primary">
+				<h3 class="mb-6 flex items-center gap-3 text-2xl font-bold text-primary">
 					<span class="text-3xl">🔨</span>
 					Majsterkowanie
-				</h4>
+				</h3>
 				<div class="grid grid-cols-2 gap-4 md:grid-cols-4">
 					{#each Array(4) as _, i}
 						<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
@@ -71,10 +71,10 @@
 			</div>
 
 			<div>
-				<h4 class="mb-6 flex items-center gap-3 text-2xl font-bold text-primary">
+				<h3 class="mb-6 flex items-center gap-3 text-2xl font-bold text-primary">
 					<span class="text-3xl">🍳</span>
 					Warsztaty gotowania
-				</h4>
+				</h3>
 				<div class="grid grid-cols-2 gap-4 md:grid-cols-4">
 					{#each Array(4) as _, i}
 						<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
@@ -94,10 +94,10 @@
 			</div>
 
 			<div>
-				<h4 class="mb-6 flex items-center gap-3 text-2xl font-bold text-primary">
+				<h3 class="mb-6 flex items-center gap-3 text-2xl font-bold text-primary">
 					<span class="text-3xl">🐕</span>
 					Dogoterapia
-				</h4>
+				</h3>
 				<div class="grid grid-cols-2 gap-4 md:grid-cols-4">
 					{#each Array(4) as _, i}
 						<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
