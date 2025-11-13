@@ -38,6 +38,7 @@
 	"dependencies": {
 		"@fortawesome/free-brands-svg-icons": "^7.1.0",
 		"@lucide/svelte": "^0.546.0",
+		"@vercel/speed-insights": "^1.2.0",
 		"svelte-fa": "^4.0.4"
 	}
 }
