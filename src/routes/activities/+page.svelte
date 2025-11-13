@@ -36,7 +36,7 @@
 				>
 					<div class="flex flex-col space-y-1.5 p-0">
 						<div class="aspect-4/3 overflow-hidden rounded-t-lg">
-							<img
+							<enhanced:img
 								src={images[0]}
 								alt={title}
 								{title}

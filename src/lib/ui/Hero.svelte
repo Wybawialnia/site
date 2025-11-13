@@ -2,7 +2,6 @@
 	import { Mouse, Send, Sparkles } from '@lucide/svelte';
 
 	import Button from '$lib/components/Button.svelte';
-
 	const scrollToSection = (id: string) => {
 		const section = document.getElementById(id);
 		if (section) {
@@ -12,10 +11,11 @@
 </script>
 
 <section id="hero" class="relative mx-auto flex min-h-screen items-center justify-center">
-	<img
-		src="hero.avif"
+	<enhanced:img
+		src="/src/lib/assets/hero.avif"
 		alt="Obrazek tła"
 		title="Obrazek tła"
+		loading="eager"
 		class="pointer-events-none absolute inset-0 h-full w-full object-cover object-center select-none"
 	/>
 
@@ -37,11 +37,11 @@
 				>
 					Wy<span class="text-secondary">BAW</span>ialnia
 				</h1>
-				<p
+				<h2
 					class="mx-auto max-w-2xl font-poppins text-xl leading-relaxed font-medium text-primary md:text-2xl"
 				>
 					Miejsce, w którym rodzice piją ciepłą kawę, a dzieci oddają się beztroskiej zabawie
-				</p>
+				</h2>
 				<div class="flex flex-col items-center justify-center gap-4 pt-4 sm:flex-row">
 					<Button
 						size="lg"

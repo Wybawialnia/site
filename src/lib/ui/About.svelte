@@ -62,8 +62,8 @@
 						<p class="text-xl font-semibold text-primary">Chodźcie się WyBawić, tej!</p>
 					</div>
 					<div class="relative">
-						<img
-							src="nasze-zdjecie.avif"
+						<enhanced:img
+							src="/src/lib/assets/nasze-zdjecie.avif"
 							alt="Zdjęcie zespołu WyBawialni"
 							class="aspect-square h-full w-full rounded-xl object-cover transition-transform duration-700 group-hover:scale-105"
 						/>

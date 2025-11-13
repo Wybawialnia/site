@@ -150,8 +150,8 @@
 					</div>
 				</div>
 				<div class="group aspect-auto overflow-hidden rounded-2xl bg-muted/50">
-					<img
-						src="urodziny/urodziny-poziom.avif"
+					<enhanced:img
+						src="/src/lib/assets/urodziny/urodziny-poziom.avif"
 						alt="Zdjęcie przedstawiające przyjęcie urodzinowe w WyBawialni"
 						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
 					/>
