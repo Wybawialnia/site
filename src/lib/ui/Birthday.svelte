@@ -91,7 +91,8 @@
 								<span>
 									<p class="text-foreground">Poczęstunek dla dzieci</p>
 									<p class="text-sm font-light text-muted-foreground">
-										ciasteczka, owoce, chrupki, słone przekąski
+										ciasteczka, owoce, chrupki, słone przekąski, <br />
+										hummus, warzywa, chipsy z grochu i soczewicy
 									</p>
 								</span>
 							</li>
@@ -150,8 +151,8 @@
 				</div>
 				<div class="group aspect-auto overflow-hidden rounded-2xl bg-muted/50">
 					<img
-						src="/placeholder.svg"
-						alt="Zabawa"
+						src="urodziny/urodziny-poziom.avif"
+						alt="Zdjęcie przedstawiające przyjęcie urodzinowe w WyBawialni"
 						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
 					/>
 				</div>
@@ -260,7 +261,7 @@
 				</div>
 			</div>
 
-			<div class="mb-10 rounded-3xl border border-border bg-card p-8">
+			<!-- <div class="mb-10 rounded-3xl border border-border bg-card p-8">
 				<h4 class="mb-6 text-2xl font-bold text-primary">Co nas wyróżnia?</h4>
 				<div class="grid grid-cols-1 gap-4 lg:grid-cols-2">
 					<div class="space-y-2">
@@ -304,7 +305,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
 			<div
 				class="col-span-2 rounded-3xl bg-linear-to-br from-secondary/20 via-accent/20 to-primary/10 p-12 text-center"

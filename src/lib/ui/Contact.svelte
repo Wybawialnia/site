@@ -75,7 +75,7 @@
 
 						<div class="space-y-6">
 							<a
-								href="tel:+48721152618"
+								href="tel:+48735089712"
 								class="group flex items-start gap-4 rounded-xl p-4 transition-colors"
 							>
 								<div
@@ -88,7 +88,7 @@
 									<p
 										class="font-semibold text-foreground transition-colors group-hover:text-secondary md:text-lg"
 									>
-										721 152 618
+										735 089 712
 									</p>
 								</div>
 							</a>

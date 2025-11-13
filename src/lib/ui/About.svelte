@@ -63,9 +63,9 @@
 					</div>
 					<div class="relative">
 						<img
-							src="/placeholder.svg"
-							alt="Drewniana konstrukcja"
-							class="h-full w-full rounded-xl object-cover transition-transform duration-700 group-hover:scale-105"
+							src="nasze-zdjecie.avif"
+							alt="Zdjęcie zespołu WyBawialni"
+							class="aspect-square h-full w-full rounded-xl object-cover transition-transform duration-700 group-hover:scale-105"
 						/>
 					</div>
 				</div>
@@ -86,10 +86,10 @@
 				>
 					<Coffee class="h-7 w-7 text-secondary" />
 				</div>
-				<h3 class="mb-3 text-xl font-bold text-foreground">Prawdziwa kawa</h3>
+				<h3 class="mb-3 text-xl font-bold text-foreground">Pyszna kawa</h3>
 				<p class="leading-relaxed text-muted-foreground">
-					Aromatyczne kawy z najlepszych ziaren, przygotowane przez profesjonalnych baristów. Do
-					tego pyszne lody i domowe ciasta.
+					Aromatyczna kawa z najlepszych ziaren, przygotowane przez profesjonalnych baristów. Do
+					tego pyszne lody (sezonowo) i wypieki z lokalnej pracowni cukierniczej.
 				</p>
 			</div>
 		</div>
@@ -108,8 +108,8 @@
 				</div>
 				<h3 class="mb-3 text-xl font-bold text-foreground">Bezpieczna zabawa</h3>
 				<p class="leading-relaxed text-muted-foreground">
-					Przygotowaliśmy kolorową bawialnię z mnóstwem atrakcji dla dzieci w różnym wieku.
-					Wszystkie zabawki są bezpieczne i regularnie czyszczone.
+					Naturalna bawialnia z mnóstwem atrakcji dla dzieci w różnym wieku. Wszystkie zabawki są
+					bezpieczne i regularnie czyszczone.
 				</p>
 			</div>
 		</div>
@@ -129,7 +129,7 @@
 				<h3 class="mb-3 text-xl font-bold text-foreground">Miejsce dla rodzin</h3>
 				<p class="leading-relaxed text-muted-foreground">
 					WyBawialnia to przestrzeń stworzona z myślą o rodzinach. Rodzice mogą odpocząć przy kawie,
-					obserwując bawiące się dzieci.
+					obserwując beztrosko bawiące się dzieci.
 				</p>
 			</div>
 		</div>

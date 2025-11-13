@@ -29,7 +29,7 @@
 						class="inline-flex items-center gap-2 rounded-full border border-secondary/20 bg-secondary/10 px-4 py-2 font-poppins text-sm font-medium text-foreground"
 					>
 						<Sparkles class="h-4 w-4 text-secondary" />
-						Kawiarnio-bawialnia dla dzieci i dorosłych
+						Kawiarnio - bawialnia dla dzieci i dorosłych
 					</p>
 				</div>
 				<h1

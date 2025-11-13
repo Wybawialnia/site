@@ -28,35 +28,35 @@
 					class="group col-span-2 row-span-2 aspect-square overflow-hidden rounded-3xl bg-muted/50"
 				>
 					<img
-						src="/placeholder.svg"
+						src="bawialnia/bawialnia-glowne.avif"
 						alt="Bawialnia - główna przestrzeń"
 						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
 					/>
 				</div>
 				<div class="group aspect-square overflow-hidden rounded-2xl bg-muted/50">
 					<img
-						src="/placeholder.svg"
+						src="bawialnia/bawialnia-konstrukcja.avif"
 						alt="Drewniana konstrukcja"
 						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
 					/>
 				</div>
 				<div class="group aspect-square overflow-hidden rounded-2xl bg-muted/50">
 					<img
-						src="/placeholder.svg"
+						src="bawialnia/zdjecie-szafki.avif"
 						alt="Strefa zabaw"
 						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
 					/>
 				</div>
 				<div class="group aspect-square overflow-hidden rounded-2xl bg-muted/50">
 					<img
-						src="/placeholder.svg"
+						src="bawialnia/stolik-szyba.avif"
 						alt="Zabawki"
 						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
 					/>
 				</div>
 				<div class="group col-span-2 aspect-2/1 overflow-hidden rounded-2xl bg-muted/50">
 					<img
-						src="/placeholder.svg"
+						src="bawialnia/zdjecie-stolik.avif"
 						alt="Kącik sensoryczny"
 						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
 					/>
@@ -73,9 +73,9 @@
 						<div class="pt-1">
 							<h4 class="mb-2 text-lg font-bold text-primary">Drewniana konstrukcja</h4>
 							<p class="leading-relaxed text-primary/70">
-								Stworzona przez specjalistów z <span class="font-medium text-accent"
-									>Small Human Design</span
-								>, zachęca do aktywności fizycznej i rozwijania wyobraźni
+								Stworzona przez specjalistów z <b class="font-medium text-accent"
+									>Small Human Design</b
+								>, zachęca do aktywności fizycznej i rozwijania umiejętności motorycznych
 							</p>
 						</div>
 					</div>
@@ -88,8 +88,8 @@
 						<div class="pt-1">
 							<h4 class="mb-2 text-lg font-bold text-primary">Strefy tematyczne</h4>
 							<p class="leading-relaxed text-primary/70">
-								Od kreatywnych klocków, przez przytulne miejsce do czytania, po kącik z <span
-									class="font-medium text-accent">zabawkami sensorycznymi</span
+								Od kreatywnych klocków, przez przytulne miejsce do czytania, po kącik z <b
+									class="font-medium text-accent">zabawkami sensorycznymi</b
 								>
 							</p>
 						</div>
@@ -103,15 +103,14 @@
 						<div class="pt-1">
 							<h4 class="mb-2 text-lg font-bold text-primary">Bezpieczeństwo przede wszystkim</h4>
 							<p class="leading-relaxed text-primary/70">
-								Wszystkie zabawki są <span class="font-medium text-accent"
-									>regularnie czyszczone</span
-								> i spełniają najwyższe standardy bezpieczeństwa
+								Wszystkie zabawki są <b class="font-medium text-accent">regularnie czyszczone</b> i spełniają
+								najwyższe standardy bezpieczeństwa
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="mt-8 rounded-3xl bg-linear-to-br from-secondary/5 to-accent/5 p-8">
-					<p class="text-lg leading-relaxed font-medium text-primary">
+					<p class="text-center text-lg leading-relaxed font-medium text-primary">
 						Powierzchnia bawialni została zaprojektowana tak, aby <span class="text-accent"
 							>dzieci w różnym wieku</span
 						> mogły znaleźć coś dla siebie! 🌟

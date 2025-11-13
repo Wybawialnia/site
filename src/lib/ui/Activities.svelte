@@ -15,7 +15,7 @@
 			</div>
 			<h2 class="font-poppins text-4xl font-bold text-primary md:text-6xl">
 				<p>
-					Zorganizowane <span class="text-secondary">zajęcia</span>
+					Zajęcia <span class="text-secondary">zorganizowane</span>
 				</p>
 			</h2>
 			<p class="mx-auto max-w-2xl font-poppins text-xl text-muted-foreground">
@@ -30,34 +30,16 @@
 					SensoWybaw
 				</h4>
 				<div class="grid grid-cols-2 gap-4 md:grid-cols-4">
-					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img
-							src="/placeholder.svg"
-							alt="Zajęcia sensoryczne 1"
-							class="h-full w-full object-cover"
-						/>
-					</div>
-					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img
-							src="/placeholder.svg"
-							alt="Zajęcia sensoryczne 2"
-							class="h-full w-full object-cover"
-						/>
-					</div>
-					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img
-							src="/placeholder.svg"
-							alt="Zajęcia sensoryczne 3"
-							class="h-full w-full object-cover"
-						/>
-					</div>
-					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img
-							src="/placeholder.svg"
-							alt="Zajęcia sensoryczne 4"
-							class="h-full w-full object-cover"
-						/>
-					</div>
+					{#each Array(4) as _, i}
+						<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
+							<img
+								src="sensoryczne/senso-{i + 1}.avif"
+								alt={`Zajęcia sensoryczne ` + (i + 1)}
+								class="h-full w-full object-cover"
+								loading="lazy"
+							/>
+						</div>
+					{/each}
 				</div>
 				<p class="mt-4 leading-relaxed text-primary/60">
 					Zabawa z różnorodnymi teksturami, kolorami i materiałami, która wspiera rozwój zmysłów i
@@ -71,18 +53,16 @@
 					Majsterkowanie
 				</h4>
 				<div class="grid grid-cols-2 gap-4 md:grid-cols-4">
-					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img src="/placeholder.svg" alt="Majsterkowanie 1" class="h-full w-full object-cover" />
-					</div>
-					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img src="/placeholder.svg" alt="Majsterkowanie 2" class="h-full w-full object-cover" />
-					</div>
-					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img src="/placeholder.svg" alt="Majsterkowanie 3" class="h-full w-full object-cover" />
-					</div>
-					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img src="/placeholder.svg" alt="Majsterkowanie 4" class="h-full w-full object-cover" />
-					</div>
+					{#each Array(4) as _, i}
+						<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
+							<img
+								src="majsterkowanie/majsterkowanie-{i + 1}.avif"
+								alt={`Zajęcia majsterkowania` + (i + 1)}
+								class="h-full w-full object-cover"
+								loading="lazy"
+							/>
+						</div>
+					{/each}
 				</div>
 				<p class="mt-4 leading-relaxed text-primary/60">
 					Kreatywne projekty DIY, które rozwijają zdolności manualne i wyobraźnię dzieci poprzez
@@ -96,22 +76,43 @@
 					Warsztaty gotowania
 				</h4>
 				<div class="grid grid-cols-2 gap-4 md:grid-cols-4">
-					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img src="/placeholder.svg" alt="Zabawy ruchowe 1" class="h-full w-full object-cover" />
-					</div>
-					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img src="/placeholder.svg" alt="Zabawy ruchowe 2" class="h-full w-full object-cover" />
-					</div>
-					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img src="/placeholder.svg" alt="Zabawy ruchowe 3" class="h-full w-full object-cover" />
-					</div>
-					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img src="/placeholder.svg" alt="Zabawy ruchowe 4" class="h-full w-full object-cover" />
-					</div>
+					{#each Array(4) as _, i}
+						<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
+							<img
+								src="gotowanie/gotowanie-{i + 1}.avif"
+								alt={`Zajęcia gotowania ` + (i + 1)}
+								class="h-full w-full object-cover"
+								loading="lazy"
+							/>
+						</div>
+					{/each}
 				</div>
 				<p class="mt-4 leading-relaxed text-primary/60">
 					Proste i bezpieczne przepisy, które dzieci mogą przygotować samodzielnie lub z pomocą
 					rodziców, ucząc się zdrowych nawyków żywieniowych.
+				</p>
+			</div>
+
+			<div>
+				<h4 class="mb-6 flex items-center gap-3 text-2xl font-bold text-primary">
+					<span class="text-3xl">🐕</span>
+					Dogoterapia
+				</h4>
+				<div class="grid grid-cols-2 gap-4 md:grid-cols-4">
+					{#each Array(4) as _, i}
+						<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
+							<img
+								src="dogoterapia/dogo-{i + 1}.avif"
+								alt={`Zajęcia z dogoterapi ` + (i + 1)}
+								class="h-full w-full object-cover"
+								loading="lazy"
+							/>
+						</div>
+					{/each}
+				</div>
+				<p class="mt-4 leading-relaxed text-primary/60">
+					Terapia z udziałem psów, która pomaga dzieciom rozwijać umiejętności społeczne i
+					emocjonalne w bezpiecznym i przyjaznym środowisku.
 				</p>
 			</div>
 		</div>
