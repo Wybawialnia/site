@@ -14,14 +14,6 @@
     }
   ],
   "cleanUrls": true,
-  "trailingSlash": false,
-  "botProtection": {
-    "enabled": true,
-    "allowedUserAgents": [
-      "Slackbot",
-      "Twitterbot",
-      "facebookexternalhit",
-      "WhatsApp"
-    ]
-  }
+  "trailingSlash": false
+  
 }

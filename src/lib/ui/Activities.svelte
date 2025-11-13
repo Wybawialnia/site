@@ -36,7 +36,6 @@
 								src="sensoryczne/senso-{i + 1}.avif"
 								alt={`Zajęcia sensoryczne ` + (i + 1)}
 								class="h-full w-full object-cover"
-								loading="lazy"
 							/>
 						</div>
 					{/each}
@@ -59,7 +58,6 @@
 								src="majsterkowanie/majsterkowanie-{i + 1}.avif"
 								alt={`Zajęcia majsterkowania` + (i + 1)}
 								class="h-full w-full object-cover"
-								loading="lazy"
 							/>
 						</div>
 					{/each}
@@ -82,7 +80,6 @@
 								src="gotowanie/gotowanie-{i + 1}.avif"
 								alt={`Zajęcia gotowania ` + (i + 1)}
 								class="h-full w-full object-cover"
-								loading="lazy"
 							/>
 						</div>
 					{/each}
@@ -105,7 +102,6 @@
 								src="dogoterapia/dogo-{i + 1}.avif"
 								alt={`Zajęcia z dogoterapi ` + (i + 1)}
 								class="h-full w-full object-cover"
-								loading="lazy"
 							/>
 						</div>
 					{/each}
