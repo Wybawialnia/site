@@ -71,7 +71,7 @@
 							🏗️
 						</div>
 						<div class="pt-1">
-							<h4 class="mb-2 text-lg font-bold text-primary">Drewniana konstrukcja</h4>
+							<h3 class="mb-2 text-lg font-bold text-primary">Drewniana konstrukcja</h3>
 							<p class="leading-relaxed text-primary/70">
 								Stworzona przez specjalistów z <b class="font-medium text-accent"
 									>Small Human Design</b
@@ -86,7 +86,7 @@
 							🎨
 						</div>
 						<div class="pt-1">
-							<h4 class="mb-2 text-lg font-bold text-primary">Strefy tematyczne</h4>
+							<h3 class="mb-2 text-lg font-bold text-primary">Strefy tematyczne</h3>
 							<p class="leading-relaxed text-primary/70">
 								Od kreatywnych klocków, przez przytulne miejsce do czytania, po kącik z <b
 									class="font-medium text-accent">zabawkami sensorycznymi</b
@@ -101,7 +101,7 @@
 							✨
 						</div>
 						<div class="pt-1">
-							<h4 class="mb-2 text-lg font-bold text-primary">Bezpieczeństwo przede wszystkim</h4>
+							<h3 class="mb-2 text-lg font-bold text-primary">Bezpieczeństwo przede wszystkim</h3>
 							<p class="leading-relaxed text-primary/70">
 								Wszystkie zabawki są <b class="font-medium text-accent">regularnie czyszczone</b> i spełniają
 								najwyższe standardy bezpieczeństwa

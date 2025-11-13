@@ -1,33 +1,24 @@
-const site = 'https://wybawialnia37.pl'; // change this to reflect your domain
-const pages: string[] = []; // populate this with all the slugs you wish to include
+import type { RequestHandler } from './$types';
 
-/** @type {import('./$types').RequestHandler} */
-export async function GET({ url }) {
-	const body = sitemap(pages);
-	const response = new Response(body);
-	response.headers.set('Cache-Control', 'max-age=0, s-maxage=3600');
-	response.headers.set('Content-Type', 'application/xml');
-	return response;
-}
+const BASE_URL = 'https://wybawialnia37.pl';
+const routes = [
+    '',
+    'gallery'
+];
 
-const sitemap = (pages: string[]) => `<?xml version="1.0" encoding="UTF-8" ?>
-<urlset
-  xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:news="https://www.google.com/schemas/sitemap-news/0.9"
-  xmlns:xhtml="https://www.w3.org/1999/xhtml"
-  xmlns:mobile="https://www.google.com/schemas/sitemap-mobile/1.0"
-  xmlns:image="https://www.google.com/schemas/sitemap-image/1.1"
-  xmlns:video="https://www.google.com/schemas/sitemap-video/1.1"
->
-  ${pages
-	.map(
-		(page) => `
-  <url>
-    <loc>${site}/${page}</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  `
-	)
-	.join('')}
-</urlset>`;
+export const GET: RequestHandler = async () => {
+    const urls = routes.map(
+        (route) => `<url><loc>${BASE_URL}/${route}</loc></url>`
+    ).join('');
+
+    const xml = `<?xml version="1.0" encoding="UTF-8"?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+        ${urls}
+    </urlset>`;
+
+    return new Response(xml, {
+        headers: {
+            'Content-Type': 'application/xml; charset=utf-8'
+        }
+    });
+};
