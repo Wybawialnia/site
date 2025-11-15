@@ -1,24 +1,24 @@
 <script>
 	import { Drum } from '@lucide/svelte';
-	import senso1 from '$lib/assets/sensoryczne/senso-1.avif';
-	import senso2 from '$lib/assets/sensoryczne/senso-2.avif';
-	import senso3 from '$lib/assets/sensoryczne/senso-3.avif';
-	import senso4 from '$lib/assets/sensoryczne/senso-4.avif';
+	import senso1 from '$lib/assets/sensoryczne/senso-1.avif?enhanced';
+	import senso2 from '$lib/assets/sensoryczne/senso-2.avif?enhanced';
+	import senso3 from '$lib/assets/sensoryczne/senso-3.avif?enhanced';
+	import senso4 from '$lib/assets/sensoryczne/senso-4.avif?enhanced';
 
-	import majsterkowanie1 from '$lib/assets/maj/majsterkowanie-1.avif';
-	import majsterkowanie2 from '$lib/assets/maj/majsterkowanie-2.avif';
-	import majsterkowanie3 from '$lib/assets/maj/majsterkowanie-3.avif';
-	import majsterkowanie4 from '$lib/assets/maj/majsterkowanie-4.avif';
+	import majsterkowanie1 from '$lib/assets/maj/majsterkowanie-1.avif?enhanced';
+	import majsterkowanie2 from '$lib/assets/maj/majsterkowanie-2.avif?enhanced';
+	import majsterkowanie3 from '$lib/assets/maj/majsterkowanie-3.avif?enhanced';
+	import majsterkowanie4 from '$lib/assets/maj/majsterkowanie-4.avif?enhanced';
 
-	import gotowanie1 from '$lib/assets/gotowanie/gotowanie-1.avif';
-	import gotowanie2 from '$lib/assets/gotowanie/gotowanie-2.avif';
-	import gotowanie3 from '$lib/assets/gotowanie/gotowanie-3.avif';
-	import gotowanie4 from '$lib/assets/gotowanie/gotowanie-4.avif';
+	import gotowanie1 from '$lib/assets/gotowanie/gotowanie-1.avif?enhanced';
+	import gotowanie2 from '$lib/assets/gotowanie/gotowanie-2.avif?enhanced';
+	import gotowanie3 from '$lib/assets/gotowanie/gotowanie-3.avif?enhanced';
+	import gotowanie4 from '$lib/assets/gotowanie/gotowanie-4.avif?enhanced';
 
-	import dogoterapia1 from '$lib/assets/dogoterapia/dogo-1.avif';
-	import dogoterapia2 from '$lib/assets/dogoterapia/dogo-2.avif';
-	import dogoterapia3 from '$lib/assets/dogoterapia/dogo-3.avif';
-	import dogoterapia4 from '$lib/assets/dogoterapia/dogo-4.avif';
+	import dogoterapia1 from '$lib/assets/dogoterapia/dogo-1.avif?enhanced';
+	import dogoterapia2 from '$lib/assets/dogoterapia/dogo-2.avif?enhanced';
+	import dogoterapia3 from '$lib/assets/dogoterapia/dogo-3.avif?enhanced';
+	import dogoterapia4 from '$lib/assets/dogoterapia/dogo-4.avif?enhanced';
 </script>
 
 <section class="bg-linear-to-b from-background to-muted/30 pt-24 pb-12" id="activities">
@@ -50,16 +50,32 @@
 				</h3>
 				<div class="grid grid-cols-2 gap-4 md:grid-cols-4">
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img src={senso1} alt={`Zajęcia sensoryczne 1`} class="h-full w-full object-cover" />
+						<enhanced:img
+							src={senso1}
+							alt={`Zajęcia sensoryczne 1`}
+							class="h-full w-full object-cover"
+						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img src={senso2} alt={`Zajęcia sensoryczne 2`} class="h-full w-full object-cover" />
+						<enhanced:img
+							src={senso2}
+							alt={`Zajęcia sensoryczne 2`}
+							class="h-full w-full object-cover"
+						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img src={senso3} alt={`Zajęcia sensoryczne 3`} class="h-full w-full object-cover" />
+						<enhanced:img
+							src={senso3}
+							alt={`Zajęcia sensoryczne 3`}
+							class="h-full w-full object-cover"
+						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img src={senso4} alt={`Zajęcia sensoryczne 4`} class="h-full w-full object-cover" />
+						<enhanced:img
+							src={senso4}
+							alt={`Zajęcia sensoryczne 4`}
+							class="h-full w-full object-cover"
+						/>
 					</div>
 				</div>
 				<p class="mt-4 leading-relaxed text-primary/60">
@@ -75,28 +91,28 @@
 				</h3>
 				<div class="grid grid-cols-2 gap-4 md:grid-cols-4">
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img
+						<enhanced:img
 							src={majsterkowanie1}
 							alt={`Zajęcia majsterkowania 1`}
 							class="h-full w-full object-cover"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img
+						<enhanced:img
 							src={majsterkowanie2}
 							alt={`Zajęcia majsterkowania 2`}
 							class="h-full w-full object-cover"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img
+						<enhanced:img
 							src={majsterkowanie3}
 							alt={`Zajęcia majsterkowania 3`}
 							class="h-full w-full object-cover"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img
+						<enhanced:img
 							src={majsterkowanie4}
 							alt={`Zajęcia majsterkowania 4`}
 							class="h-full w-full object-cover"
@@ -116,16 +132,32 @@
 				</h3>
 				<div class="grid grid-cols-2 gap-4 md:grid-cols-4">
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img src={gotowanie1} alt={`Zajęcia gotowania 1`} class="h-full w-full object-cover" />
+						<enhanced:img
+							src={gotowanie1}
+							alt={`Zajęcia gotowania 1`}
+							class="h-full w-full object-cover"
+						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img src={gotowanie2} alt={`Zajęcia gotowania 2`} class="h-full w-full object-cover" />
+						<enhanced:img
+							src={gotowanie2}
+							alt={`Zajęcia gotowania 2`}
+							class="h-full w-full object-cover"
+						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img src={gotowanie3} alt={`Zajęcia gotowania 3`} class="h-full w-full object-cover" />
+						<enhanced:img
+							src={gotowanie3}
+							alt={`Zajęcia gotowania 3`}
+							class="h-full w-full object-cover"
+						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img src={gotowanie4} alt={`Zajęcia gotowania 4`} class="h-full w-full object-cover" />
+						<enhanced:img
+							src={gotowanie4}
+							alt={`Zajęcia gotowania 4`}
+							class="h-full w-full object-cover"
+						/>
 					</div>
 				</div>
 				<p class="mt-4 leading-relaxed text-primary/60">
@@ -141,28 +173,28 @@
 				</h3>
 				<div class="grid grid-cols-2 gap-4 md:grid-cols-4">
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img
+						<enhanced:img
 							src={dogoterapia1}
 							alt={`Zajęcia z dogoterapi 1`}
 							class="h-full w-full object-cover"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img
+						<enhanced:img
 							src={dogoterapia2}
 							alt={`Zajęcia z dogoterapi 2`}
 							class="h-full w-full object-cover"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img
+						<enhanced:img
 							src={dogoterapia3}
 							alt={`Zajęcia z dogoterapi 3`}
 							class="h-full w-full object-cover"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<img
+						<enhanced:img
 							src={dogoterapia4}
 							alt={`Zajęcia z dogoterapi 4`}
 							class="h-full w-full object-cover"

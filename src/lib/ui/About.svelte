@@ -1,6 +1,6 @@
 <script>
 	import { Coffee, Heart, Sparkles, Users } from '@lucide/svelte';
-	import teamPhoto from '$lib/assets/nasze-zdjecie.avif';
+	import teamPhoto from '$lib/assets/nasze-zdjecie.avif?enhanced';
 </script>
 
 <section id="about" class="bg-linear-to-b from-background to-muted/30 pt-24 pb-12">
@@ -63,7 +63,7 @@
 						<p class="text-xl font-semibold text-primary">Chodźcie się WyBawić, tej!</p>
 					</div>
 					<div class="relative">
-						<img
+						<enhanced:img
 							src={teamPhoto}
 							alt="Zdjęcie zespołu WyBawialni"
 							class="aspect-square h-full w-full rounded-xl object-cover transition-transform duration-700 group-hover:scale-105"

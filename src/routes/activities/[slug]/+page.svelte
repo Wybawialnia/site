@@ -3,7 +3,6 @@
 	import type { PageData } from '../$types';
 	import Button from '$lib/components/Button.svelte';
 	import { goto } from '$app/navigation';
-	import ResponsiveImg from '$lib/components/ResponsiveImg.svelte';
 
 	export let data: PageData;
 
@@ -23,11 +22,7 @@
 		</Button>
 
 		<div class="mb-12 aspect-21/9 overflow-hidden rounded-3xl">
-			<ResponsiveImg
-				src={classEvent.images[0]}
-				alt={classEvent.title}
-				className="h-full w-full object-cover"
-			/>
+			<img src={classEvent.images[0]} alt={classEvent.title} class="h-full w-full object-cover" />
 		</div>
 
 		<div class="mb-12">
@@ -84,10 +79,10 @@
 					<div class="grid grid-cols-2 gap-4 md:grid-cols-3">
 						{#each classEvent.images as image, index}
 							<div class="group aspect-square overflow-hidden rounded-2xl">
-								<ResponsiveImg
+								<img
 									src={image}
 									alt={`${classEvent.title} - zdjęcie ${index + 2}`}
-									className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+									class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
 								/>
 							</div>
 						{/each}

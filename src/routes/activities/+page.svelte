@@ -2,7 +2,6 @@
 	import { goto } from '$app/navigation';
 	import Button from '$lib/components/Button.svelte';
 	import { Calendar, Clock, Users } from '@lucide/svelte';
-	import ResponsiveImg from '$lib/components/ResponsiveImg.svelte';
 	import type { PageData } from '../$types';
 
 	export let data: PageData;
@@ -37,10 +36,10 @@
 				>
 					<div class="flex flex-col space-y-1.5 p-0">
 						<div class="aspect-4/3 overflow-hidden rounded-t-lg">
-							<ResponsiveImg
+							<img
 								src={images[0]}
 								alt={title}
-								className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
+								class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
 							/>
 						</div>
 					</div>

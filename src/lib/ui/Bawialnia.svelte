@@ -1,11 +1,11 @@
 <script>
 	import { Shapes } from '@lucide/svelte';
 
-	import bawialnia1 from '$lib/assets/bawialnia/bawialnia-glowne.avif';
-	import bawialnia2 from '$lib/assets/bawialnia/bawialnia-konstrukcja.avif';
-	import bawialnia3 from '$lib/assets/bawialnia/zdjecie-szafki.avif';
-	import bawialnia4 from '$lib/assets/bawialnia/stolik-szyba.avif';
-	import bawialnia5 from '$lib/assets/bawialnia/zdjecie-stolik.avif';
+	import bawialnia1 from '$lib/assets/bawialnia/bawialnia-glowne.avif?enhanced';
+	import bawialnia2 from '$lib/assets/bawialnia/bawialnia-konstrukcja.avif?enhanced';
+	import bawialnia3 from '$lib/assets/bawialnia/zdjecie-szafki.avif?enhanced';
+	import bawialnia4 from '$lib/assets/bawialnia/stolik-szyba.avif?enhanced';
+	import bawialnia5 from '$lib/assets/bawialnia/zdjecie-stolik.avif?enhanced';
 </script>
 
 <section class="bg-linear-to-b from-muted/30 to-background pt-24 pb-12" id="bawialnia">
@@ -33,35 +33,35 @@
 				<div
 					class="group col-span-2 row-span-2 aspect-square overflow-hidden rounded-3xl bg-muted/50"
 				>
-					<img
+					<enhanced:img
 						src={bawialnia1}
 						alt="Bawialnia - główna przestrzeń"
 						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
 					/>
 				</div>
 				<div class="group aspect-square overflow-hidden rounded-2xl bg-muted/50">
-					<img
+					<enhanced:img
 						src={bawialnia2}
 						alt="Drewniana konstrukcja"
 						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
 					/>
 				</div>
 				<div class="group aspect-square overflow-hidden rounded-2xl bg-muted/50">
-					<img
+					<enhanced:img
 						src={bawialnia3}
 						alt="Strefa zabaw"
 						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
 					/>
 				</div>
 				<div class="group aspect-square overflow-hidden rounded-2xl bg-muted/50">
-					<img
+					<enhanced:img
 						src={bawialnia4}
 						alt="Zabawki"
 						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
 					/>
 				</div>
 				<div class="group col-span-2 aspect-2/1 overflow-hidden rounded-2xl bg-muted/50">
-					<img
+					<enhanced:img
 						src={bawialnia5}
 						alt="Kącik sensoryczny"
 						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"

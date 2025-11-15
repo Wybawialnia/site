@@ -2,7 +2,6 @@
 	import { Coffee, Heart } from '@lucide/svelte';
 	import Fa from 'svelte-fa';
 	import { faTiktok, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
-	import ResponsiveImg from '$lib/components/ResponsiveImg.svelte';
 </script>
 
 <footer class="bg-primary pt-12 pb-6 text-primary-foreground">
@@ -106,6 +105,6 @@
 		class="mt-4 flex flex-row items-center justify-center gap-2 text-center text-sm text-muted-foreground"
 	>
 		Realizacja witryny
-		<ResponsiveImg src="/src/lib/assets/boroit_logo.png" className="h-8" alt="Test" />
+		<img src="/src/lib/assets/boroit_logo.png" class="h-8" alt="Test" />
 	</div>
 </footer>

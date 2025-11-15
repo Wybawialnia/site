@@ -1,7 +1,7 @@
 <script>
 	import Button from '$lib/components/Button.svelte';
 
-	import birthdayImg from '$lib/assets/urodziny/urodziny-poziom.avif';
+	import birthdayImg from '$lib/assets/urodziny/urodziny-poziom.avif?enhanced';
 
 	import {
 		Cake,
@@ -153,7 +153,7 @@
 					</div>
 				</div>
 				<div class="group aspect-auto overflow-hidden rounded-2xl bg-muted/50">
-					<img
+					<enhanced:img
 						src={birthdayImg}
 						alt="Zdjęcie przedstawiające przyjęcie urodzinowe w WyBawialni"
 						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
