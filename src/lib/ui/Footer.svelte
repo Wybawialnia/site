@@ -1,7 +1,8 @@
 <script>
-	import { Coffee, Heart } from '@lucide/svelte';
+	import { Coffee } from '@lucide/svelte';
 	import Fa from 'svelte-fa';
 	import { faTiktok, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+	import boroitLogo from '$lib/assets/boroit_logo.png';
 </script>
 
 <footer class="bg-primary pt-12 pb-6 text-primary-foreground">
@@ -105,6 +106,6 @@
 		class="mt-4 flex flex-row items-center justify-center gap-2 text-center text-sm text-muted-foreground"
 	>
 		Realizacja witryny
-		<img src="/src/lib/assets/boroit_logo.png" class="h-8" alt="Test" />
+		<img src={boroitLogo} class="h-8" alt="Test" />
 	</div>
 </footer>
