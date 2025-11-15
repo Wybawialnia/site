@@ -1,5 +1,6 @@
 <script>
 	import { Drum } from '@lucide/svelte';
+	import ResponsiveImg from '$lib/components/ResponsiveImg.svelte';
 </script>
 
 <section class="bg-linear-to-b from-background to-muted/30 pt-24 pb-12" id="activities">
@@ -31,31 +32,31 @@
 				</h3>
 				<div class="grid grid-cols-2 gap-4 md:grid-cols-4">
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<enhanced:img
+						<ResponsiveImg
 							src="/src/lib/assets/sensoryczne/senso-1.avif"
 							alt={`Zajęcia sensoryczne 1`}
-							class="h-full w-full object-cover"
+							className="h-full w-full object-cover"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<enhanced:img
+						<ResponsiveImg
 							src="/src/lib/assets/sensoryczne/senso-2.avif"
 							alt={`Zajęcia sensoryczne 2`}
-							class="h-full w-full object-cover"
+							className="h-full w-full object-cover"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<enhanced:img
+						<ResponsiveImg
 							src="/src/lib/assets/sensoryczne/senso-3.avif"
 							alt={`Zajęcia sensoryczne 3`}
-							class="h-full w-full object-cover"
+							className="h-full w-full object-cover"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<enhanced:img
+						<ResponsiveImg
 							src="/src/lib/assets/sensoryczne/senso-4.avif"
 							alt={`Zajęcia sensoryczne 4`}
-							class="h-full w-full object-cover"
+							className="h-full w-full object-cover"
 						/>
 					</div>
 				</div>
@@ -72,31 +73,31 @@
 				</h3>
 				<div class="grid grid-cols-2 gap-4 md:grid-cols-4">
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<enhanced:img
+						<ResponsiveImg
 							src="/src/lib/assets/majsterkowanie/majsterkowanie-1.avif"
 							alt={`Zajęcia majsterkowania 1`}
-							class="h-full w-full object-cover"
+							className="h-full w-full object-cover"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<enhanced:img
+						<ResponsiveImg
 							src="/src/lib/assets/majsterkowanie/majsterkowanie-2.avif"
 							alt={`Zajęcia majsterkowania 2`}
-							class="h-full w-full object-cover"
+							className="h-full w-full object-cover"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<enhanced:img
+						<ResponsiveImg
 							src="/src/lib/assets/majsterkowanie/majsterkowanie-3.avif"
 							alt={`Zajęcia majsterkowania 3`}
-							class="h-full w-full object-cover"
+							className="h-full w-full object-cover"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<enhanced:img
+						<ResponsiveImg
 							src="/src/lib/assets/majsterkowanie/majsterkowanie-4.avif"
 							alt={`Zajęcia majsterkowania 4`}
-							class="h-full w-full object-cover"
+							className="h-full w-full object-cover"
 						/>
 					</div>
 				</div>
@@ -113,31 +114,31 @@
 				</h3>
 				<div class="grid grid-cols-2 gap-4 md:grid-cols-4">
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<enhanced:img
+						<ResponsiveImg
 							src="/src/lib/assets/gotowanie/gotowanie-1.avif"
 							alt={`Zajęcia gotowania 1`}
-							class="h-full w-full object-cover"
+							className="h-full w-full object-cover"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<enhanced:img
+						<ResponsiveImg
 							src="/src/lib/assets/gotowanie/gotowanie-2.avif"
 							alt={`Zajęcia gotowania 2`}
-							class="h-full w-full object-cover"
+							className="h-full w-full object-cover"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<enhanced:img
+						<ResponsiveImg
 							src="/src/lib/assets/gotowanie/gotowanie-3.avif"
 							alt={`Zajęcia gotowania 3`}
-							class="h-full w-full object-cover"
+							className="h-full w-full object-cover"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<enhanced:img
+						<ResponsiveImg
 							src="/src/lib/assets/gotowanie/gotowanie-4.avif"
 							alt={`Zajęcia gotowania 4`}
-							class="h-full w-full object-cover"
+							className="h-full w-full object-cover"
 						/>
 					</div>
 				</div>
@@ -154,31 +155,31 @@
 				</h3>
 				<div class="grid grid-cols-2 gap-4 md:grid-cols-4">
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<enhanced:img
+						<ResponsiveImg
 							src="/src/lib/assets/dogoterapia/dogo-1.avif"
 							alt={`Zajęcia z dogoterapi 1`}
-							class="h-full w-full object-cover"
+							className="h-full w-full object-cover"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<enhanced:img
+						<ResponsiveImg
 							src="/src/lib/assets/dogoterapia/dogo-2.avif"
 							alt={`Zajęcia z dogoterapi 2`}
-							class="h-full w-full object-cover"
+							className="h-full w-full object-cover"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<enhanced:img
+						<ResponsiveImg
 							src="/src/lib/assets/dogoterapia/dogo-3.avif"
 							alt={`Zajęcia z dogoterapi 3`}
-							class="h-full w-full object-cover"
+							className="h-full w-full object-cover"
 						/>s
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<enhanced:img
+						<ResponsiveImg
 							src="/src/lib/assets/dogoterapia/dogo-4.avif"
 							alt={`Zajęcia z dogoterapi 4`}
-							class="h-full w-full object-cover"
+							className="h-full w-full object-cover"
 						/>
 					</div>
 				</div>

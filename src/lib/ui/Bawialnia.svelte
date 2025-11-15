@@ -1,5 +1,6 @@
 <script>
 	import { Shapes } from '@lucide/svelte';
+	import ResponsiveImg from '$lib/components/ResponsiveImg.svelte';
 </script>
 
 <section class="bg-linear-to-b from-muted/30 to-background pt-24 pb-12" id="bawialnia">
@@ -27,38 +28,38 @@
 				<div
 					class="group col-span-2 row-span-2 aspect-square overflow-hidden rounded-3xl bg-muted/50"
 				>
-					<enhanced:img
+					<ResponsiveImg
 						src="/src/lib/assets/bawialnia/bawialnia-glowne.avif"
 						alt="Bawialnia - główna przestrzeń"
-						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+						className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
 					/>
 				</div>
 				<div class="group aspect-square overflow-hidden rounded-2xl bg-muted/50">
-					<enhanced:img
+					<ResponsiveImg
 						src="/src/lib/assets/bawialnia/bawialnia-konstrukcja.avif"
 						alt="Drewniana konstrukcja"
-						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+						className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
 					/>
 				</div>
 				<div class="group aspect-square overflow-hidden rounded-2xl bg-muted/50">
-					<enhanced:img
+					<ResponsiveImg
 						src="/src/lib/assets/bawialnia/zdjecie-szafki.avif"
 						alt="Strefa zabaw"
-						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+						className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
 					/>
 				</div>
 				<div class="group aspect-square overflow-hidden rounded-2xl bg-muted/50">
-					<enhanced:img
+					<ResponsiveImg
 						src="/src/lib/assets/bawialnia/stolik-szyba.avif"
 						alt="Zabawki"
-						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+						className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
 					/>
 				</div>
 				<div class="group col-span-2 aspect-2/1 overflow-hidden rounded-2xl bg-muted/50">
-					<enhanced:img
+					<ResponsiveImg
 						src="/src/lib/assets/bawialnia/zdjecie-stolik.avif"
 						alt="Kącik sensoryczny"
-						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+						className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
 					/>
 				</div>
 			</div>

@@ -1,5 +1,6 @@
 <script>
 	import Button from '$lib/components/Button.svelte';
+	import ResponsiveImg from '$lib/components/ResponsiveImg.svelte';
 	import {
 		Cake,
 		Clock,
@@ -150,10 +151,10 @@
 					</div>
 				</div>
 				<div class="group aspect-auto overflow-hidden rounded-2xl bg-muted/50">
-					<enhanced:img
+					<ResponsiveImg
 						src="/src/lib/assets/urodziny/urodziny-poziom.avif"
 						alt="Zdjęcie przedstawiające przyjęcie urodzinowe w WyBawialni"
-						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+						className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
 					/>
 				</div>
 				<div

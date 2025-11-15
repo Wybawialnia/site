@@ -2,6 +2,7 @@
 	import { Mouse, Send, Sparkles } from '@lucide/svelte';
 
 	import Button from '$lib/components/Button.svelte';
+	import ResponsiveImg from '$lib/components/ResponsiveImg.svelte';
 	const scrollToSection = (id: string) => {
 		const section = document.getElementById(id);
 		if (section) {
@@ -11,11 +12,12 @@
 </script>
 
 <section id="hero" class="relative mx-auto flex min-h-screen items-center justify-center">
-	<enhanced:img
+	<img
 		src="/src/lib/assets/hero.avif"
-		alt="Obrazek tła"
-		title="Obrazek tła"
 		loading="eager"
+		decoding="async"
+		fetchpriority="high"
+		alt="Obrazek tła"
 		class="pointer-events-none absolute inset-0 h-full w-full object-cover object-center select-none"
 	/>
 
