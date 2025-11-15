@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { Mouse, Send, Sparkles } from '@lucide/svelte';
-
 	import Button from '$lib/components/Button.svelte';
-	import ResponsiveImg from '$lib/components/ResponsiveImg.svelte';
+	import bgImage from '$lib/assets/hero.avif?width=1920&format=avif&q=65';
+
 	const scrollToSection = (id: string) => {
 		const section = document.getElementById(id);
 		if (section) {
@@ -13,7 +13,7 @@
 
 <section id="hero" class="relative mx-auto flex min-h-screen items-center justify-center">
 	<img
-		src="/src/lib/assets/hero.avif"
+		src={bgImage}
 		loading="eager"
 		decoding="async"
 		fetchpriority="high"

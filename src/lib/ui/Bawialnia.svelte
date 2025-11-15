@@ -1,6 +1,11 @@
 <script>
 	import { Shapes } from '@lucide/svelte';
-	import ResponsiveImg from '$lib/components/ResponsiveImg.svelte';
+
+	import bawialnia1 from '$lib/assets/bawialnia/bawialnia-glowne.avif?width=800&format=avif&q=65';
+	import bawialnia2 from '$lib/assets/bawialnia/bawialnia-konstrukcja.avif?width=800&format=avif&q=65';
+	import bawialnia3 from '$lib/assets/bawialnia/zdjecie-szafki.avif?width=800&format=avif&q=65';
+	import bawialnia4 from '$lib/assets/bawialnia/stolik-szyba.avif?width=800&format=avif&q=65';
+	import bawialnia5 from '$lib/assets/bawialnia/zdjecie-stolik.avif?width=800&format=avif&q=65';
 </script>
 
 <section class="bg-linear-to-b from-muted/30 to-background pt-24 pb-12" id="bawialnia">
@@ -28,38 +33,38 @@
 				<div
 					class="group col-span-2 row-span-2 aspect-square overflow-hidden rounded-3xl bg-muted/50"
 				>
-					<ResponsiveImg
-						src="/src/lib/assets/bawialnia/bawialnia-glowne.avif"
+					<img
+						src={bawialnia1}
 						alt="Bawialnia - główna przestrzeń"
-						className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
 					/>
 				</div>
 				<div class="group aspect-square overflow-hidden rounded-2xl bg-muted/50">
-					<ResponsiveImg
-						src="/src/lib/assets/bawialnia/bawialnia-konstrukcja.avif"
+					<img
+						src={bawialnia2}
 						alt="Drewniana konstrukcja"
-						className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
 					/>
 				</div>
 				<div class="group aspect-square overflow-hidden rounded-2xl bg-muted/50">
-					<ResponsiveImg
-						src="/src/lib/assets/bawialnia/zdjecie-szafki.avif"
+					<img
+						src={bawialnia3}
 						alt="Strefa zabaw"
-						className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
 					/>
 				</div>
 				<div class="group aspect-square overflow-hidden rounded-2xl bg-muted/50">
-					<ResponsiveImg
-						src="/src/lib/assets/bawialnia/stolik-szyba.avif"
+					<img
+						src={bawialnia4}
 						alt="Zabawki"
-						className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
 					/>
 				</div>
 				<div class="group col-span-2 aspect-2/1 overflow-hidden rounded-2xl bg-muted/50">
-					<ResponsiveImg
-						src="/src/lib/assets/bawialnia/zdjecie-stolik.avif"
+					<img
+						src={bawialnia5}
 						alt="Kącik sensoryczny"
-						className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
 					/>
 				</div>
 			</div>

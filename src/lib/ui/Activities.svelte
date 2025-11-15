@@ -1,6 +1,24 @@
 <script>
 	import { Drum } from '@lucide/svelte';
-	import ResponsiveImg from '$lib/components/ResponsiveImg.svelte';
+	import senso1 from '$lib/assets/sensoryczne/senso-1.avif?width=800&format=avif&q=65';
+	import senso2 from '$lib/assets/sensoryczne/senso-2.avif?width=800&format=avif&q=65';
+	import senso3 from '$lib/assets/sensoryczne/senso-3.avif?width=800&format=avif&q=65';
+	import senso4 from '$lib/assets/sensoryczne/senso-4.avif?width=800&format=avif&q=65';
+
+	import majsterkowanie1 from '$lib/assets/maj/majsterkowanie-1.avif?width=800&format=avif&q=65';
+	import majsterkowanie2 from '$lib/assets/maj/majsterkowanie-2.avif?width=800&format=avif&q=65';
+	import majsterkowanie3 from '$lib/assets/maj/majsterkowanie-3.avif?width=800&format=avif&q=65';
+	import majsterkowanie4 from '$lib/assets/maj/majsterkowanie-4.avif?width=800&format=avif&q=65';
+
+	import gotowanie1 from '$lib/assets/gotowanie/gotowanie-1.avif?width=800&format=avif&q=65';
+	import gotowanie2 from '$lib/assets/gotowanie/gotowanie-2.avif?width=800&format=avif&q=65';
+	import gotowanie3 from '$lib/assets/gotowanie/gotowanie-3.avif?width=800&format=avif&q=65';
+	import gotowanie4 from '$lib/assets/gotowanie/gotowanie-4.avif?width=800&format=avif&q=65';
+
+	import dogoterapia1 from '$lib/assets/dogoterapia/dogo-1.avif?width=800&format=avif&q=65';
+	import dogoterapia2 from '$lib/assets/dogoterapia/dogo-2.avif?width=800&format=avif&q=65';
+	import dogoterapia3 from '$lib/assets/dogoterapia/dogo-3.avif?width=800&format=avif&q=65';
+	import dogoterapia4 from '$lib/assets/dogoterapia/dogo-4.avif?width=800&format=avif&q=65';
 </script>
 
 <section class="bg-linear-to-b from-background to-muted/30 pt-24 pb-12" id="activities">
@@ -32,32 +50,16 @@
 				</h3>
 				<div class="grid grid-cols-2 gap-4 md:grid-cols-4">
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<ResponsiveImg
-							src="/src/lib/assets/sensoryczne/senso-1.avif"
-							alt={`Zajęcia sensoryczne 1`}
-							className="h-full w-full object-cover"
-						/>
+						<img src={senso1} alt={`Zajęcia sensoryczne 1`} class="h-full w-full object-cover" />
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<ResponsiveImg
-							src="/src/lib/assets/sensoryczne/senso-2.avif"
-							alt={`Zajęcia sensoryczne 2`}
-							className="h-full w-full object-cover"
-						/>
+						<img src={senso2} alt={`Zajęcia sensoryczne 2`} class="h-full w-full object-cover" />
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<ResponsiveImg
-							src="/src/lib/assets/sensoryczne/senso-3.avif"
-							alt={`Zajęcia sensoryczne 3`}
-							className="h-full w-full object-cover"
-						/>
+						<img src={senso3} alt={`Zajęcia sensoryczne 3`} class="h-full w-full object-cover" />
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<ResponsiveImg
-							src="/src/lib/assets/sensoryczne/senso-4.avif"
-							alt={`Zajęcia sensoryczne 4`}
-							className="h-full w-full object-cover"
-						/>
+						<img src={senso4} alt={`Zajęcia sensoryczne 4`} class="h-full w-full object-cover" />
 					</div>
 				</div>
 				<p class="mt-4 leading-relaxed text-primary/60">
@@ -73,31 +75,31 @@
 				</h3>
 				<div class="grid grid-cols-2 gap-4 md:grid-cols-4">
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<ResponsiveImg
-							src="/src/lib/assets/majsterkowanie/majsterkowanie-1.avif"
+						<img
+							src={majsterkowanie1}
 							alt={`Zajęcia majsterkowania 1`}
-							className="h-full w-full object-cover"
+							class="h-full w-full object-cover"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<ResponsiveImg
-							src="/src/lib/assets/majsterkowanie/majsterkowanie-2.avif"
+						<img
+							src={majsterkowanie2}
 							alt={`Zajęcia majsterkowania 2`}
-							className="h-full w-full object-cover"
+							class="h-full w-full object-cover"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<ResponsiveImg
-							src="/src/lib/assets/majsterkowanie/majsterkowanie-3.avif"
+						<img
+							src={majsterkowanie3}
 							alt={`Zajęcia majsterkowania 3`}
-							className="h-full w-full object-cover"
+							class="h-full w-full object-cover"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<ResponsiveImg
-							src="/src/lib/assets/majsterkowanie/majsterkowanie-4.avif"
+						<img
+							src={majsterkowanie4}
 							alt={`Zajęcia majsterkowania 4`}
-							className="h-full w-full object-cover"
+							class="h-full w-full object-cover"
 						/>
 					</div>
 				</div>
@@ -114,32 +116,16 @@
 				</h3>
 				<div class="grid grid-cols-2 gap-4 md:grid-cols-4">
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<ResponsiveImg
-							src="/src/lib/assets/gotowanie/gotowanie-1.avif"
-							alt={`Zajęcia gotowania 1`}
-							className="h-full w-full object-cover"
-						/>
+						<img src={gotowanie1} alt={`Zajęcia gotowania 1`} class="h-full w-full object-cover" />
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<ResponsiveImg
-							src="/src/lib/assets/gotowanie/gotowanie-2.avif"
-							alt={`Zajęcia gotowania 2`}
-							className="h-full w-full object-cover"
-						/>
+						<img src={gotowanie2} alt={`Zajęcia gotowania 2`} class="h-full w-full object-cover" />
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<ResponsiveImg
-							src="/src/lib/assets/gotowanie/gotowanie-3.avif"
-							alt={`Zajęcia gotowania 3`}
-							className="h-full w-full object-cover"
-						/>
+						<img src={gotowanie3} alt={`Zajęcia gotowania 3`} class="h-full w-full object-cover" />
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<ResponsiveImg
-							src="/src/lib/assets/gotowanie/gotowanie-4.avif"
-							alt={`Zajęcia gotowania 4`}
-							className="h-full w-full object-cover"
-						/>
+						<img src={gotowanie4} alt={`Zajęcia gotowania 4`} class="h-full w-full object-cover" />
 					</div>
 				</div>
 				<p class="mt-4 leading-relaxed text-primary/60">
@@ -155,31 +141,31 @@
 				</h3>
 				<div class="grid grid-cols-2 gap-4 md:grid-cols-4">
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<ResponsiveImg
-							src="/src/lib/assets/dogoterapia/dogo-1.avif"
+						<img
+							src={dogoterapia1}
 							alt={`Zajęcia z dogoterapi 1`}
-							className="h-full w-full object-cover"
+							class="h-full w-full object-cover"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<ResponsiveImg
-							src="/src/lib/assets/dogoterapia/dogo-2.avif"
+						<img
+							src={dogoterapia2}
 							alt={`Zajęcia z dogoterapi 2`}
-							className="h-full w-full object-cover"
+							class="h-full w-full object-cover"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<ResponsiveImg
-							src="/src/lib/assets/dogoterapia/dogo-3.avif"
+						<img
+							src={dogoterapia3}
 							alt={`Zajęcia z dogoterapi 3`}
-							className="h-full w-full object-cover"
-						/>s
+							class="h-full w-full object-cover"
+						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
-						<ResponsiveImg
-							src="/src/lib/assets/dogoterapia/dogo-4.avif"
+						<img
+							src={dogoterapia4}
 							alt={`Zajęcia z dogoterapi 4`}
-							className="h-full w-full object-cover"
+							class="h-full w-full object-cover"
 						/>
 					</div>
 				</div>
