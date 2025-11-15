@@ -79,7 +79,7 @@
 					</div>
 				</div>
 				<p class="mt-4 leading-relaxed text-primary/60">
-					Zabawa z różnorodnymi teksturami, kolorami i materiałami, która wspiera rozwój zmysłów i
+					Zabawa z różnorodnymi teksturami, kolorami i materiałami, które wspierają rozwój zmysłów i
 					kreatywności maluchów.
 				</p>
 			</div>

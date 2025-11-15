@@ -49,8 +49,8 @@
 						<li>Jana Spychalskiego 37 / U2</li>
 						<li>61-553 Poznań</li>
 						<li>
-							<a href="tel:+48721152618" class="transition-colors hover:text-secondary">
-								tel. 721 152 618
+							<a href="tel:+48735089712" class="transition-colors hover:text-secondary">
+								tel. 735 089 712
 							</a>
 						</li>
 						<li>
@@ -65,7 +65,7 @@
 					<div class="mt-2 flex flex-row items-center gap-4">
 						<a
 							href="https://instagram.com/wy_bawialnia"
-							target="_blank"
+							target="Instagram"
 							title="Instagram"
 							rel="noopener noreferrer"
 							class="transition-colors hover:text-secondary"
@@ -75,7 +75,7 @@
 
 						<a
 							href="https://instagram.com/wy_bawialnia"
-							target="_blank"
+							target="Facebook"
 							title="Facebook"
 							rel="noopener noreferrer"
 							class="transition-colors hover:text-secondary"
@@ -85,7 +85,7 @@
 
 						<a
 							href="https://instagram.com/wy_bawialnia"
-							target="_blank"
+							target="Tiktok"
 							title="Tiktok"
 							rel="noopener noreferrer"
 							class="transition-colors hover:text-secondary"

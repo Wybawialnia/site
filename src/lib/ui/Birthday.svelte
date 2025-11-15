@@ -94,8 +94,8 @@
 								<span>
 									<p class="text-foreground">Poczęstunek dla dzieci</p>
 									<p class="text-sm font-light text-muted-foreground">
-										ciasteczka, owoce, chrupki, słone przekąski, <br />
-										hummus, warzywa, chipsy z grochu i soczewicy
+										ciasteczka, owoce, chrupki, słone przekąski, hummus, warzywa, chipsy z grochu i
+										soczewicy
 									</p>
 								</span>
 							</li>
@@ -314,9 +314,10 @@
 				class="col-span-2 rounded-3xl bg-linear-to-br from-secondary/20 via-accent/20 to-primary/10 p-12 text-center"
 			>
 				<div class="mb-6 text-7xl">🎂</div>
-				<h3 class="mb-4 text-3xl font-bold text-primary">Dowiedz się więcej</h3>
+				<h3 class="mb-4 text-3xl font-bold text-primary">Wypełnij formularz</h3>
 				<p class="mb-8 text-lg text-foreground">
-					Chętnie odpowiemy na wszystkie Twoje pytania i pomożemy zarezerwować termin!
+					Odpowiedz na kilka krótkich pytań dotyczących wymarzonych urodzin Twojego dziecka, a my
+					zajmiemy się resztą
 				</p>
 				<Button
 					size="lg"
@@ -324,7 +325,7 @@
 					clazz="rounded-full bg-secondary px-8 py-6 text-lg font-semibold text-secondary-foreground shadow-lg hover:bg-secondary/90"
 				>
 					<Calendar class="mr-2 h-8 w-8" />
-					Rezerwuj z Calendly
+					Zarezerwuj
 				</Button>
 			</div>
 		</div>

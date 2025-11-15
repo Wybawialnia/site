@@ -31,7 +31,7 @@
 					<div>
 						<a
 							href="https://www.facebook.com/profile.php?id=61573094341498&mibextid=wwXIfr"
-							target="_blank"
+							target="Facebook"
 							title="Facebook"
 							rel="noopener noreferrer"
 							class="flex items-center gap-4 rounded-lg bg-sidebar-ring/10 p-4 transition-colors hover:bg-sidebar-ring/20"
@@ -43,7 +43,7 @@
 					<div>
 						<a
 							href="https://www.instagram.com/wy_bawialnia/"
-							target="_blank"
+							target="Instagram"
 							title="Instagram"
 							rel="noopener noreferrer"
 							class="flex items-center gap-4 rounded-lg bg-accent/10 p-4 transition-colors hover:bg-accent/20"
@@ -55,7 +55,7 @@
 					<div>
 						<a
 							href="https://www.tiktok.com/@wybawialnia37?_t=ZN-90gFhQM0v3O&_r=1"
-							target="_blank"
+							target="Tiktok"
 							title="TikTok"
 							rel="noopener noreferrer"
 							class="flex items-center gap-4 rounded-lg bg-destructive/10 p-4 transition-colors hover:bg-destructive/20"
