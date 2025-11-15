@@ -1,7 +1,7 @@
 <script>
 	import Button from '$lib/components/Button.svelte';
 
-	import birthdayImg from '$lib/assets/urodziny/urodziny-poziom.avif?width=800&format=avif&q=65';
+	import birthdayImg from '$lib/assets/urodziny/urodziny-poziom.avif';
 
 	import {
 		Cake,

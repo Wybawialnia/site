@@ -1,11 +1,11 @@
 <script>
 	import { Shapes } from '@lucide/svelte';
 
-	import bawialnia1 from '$lib/assets/bawialnia/bawialnia-glowne.avif?width=800&format=avif&q=65';
-	import bawialnia2 from '$lib/assets/bawialnia/bawialnia-konstrukcja.avif?width=800&format=avif&q=65';
-	import bawialnia3 from '$lib/assets/bawialnia/zdjecie-szafki.avif?width=800&format=avif&q=65';
-	import bawialnia4 from '$lib/assets/bawialnia/stolik-szyba.avif?width=800&format=avif&q=65';
-	import bawialnia5 from '$lib/assets/bawialnia/zdjecie-stolik.avif?width=800&format=avif&q=65';
+	import bawialnia1 from '$lib/assets/bawialnia/bawialnia-glowne.avif';
+	import bawialnia2 from '$lib/assets/bawialnia/bawialnia-konstrukcja.avif';
+	import bawialnia3 from '$lib/assets/bawialnia/zdjecie-szafki.avif';
+	import bawialnia4 from '$lib/assets/bawialnia/stolik-szyba.avif';
+	import bawialnia5 from '$lib/assets/bawialnia/zdjecie-stolik.avif';
 </script>
 
 <section class="bg-linear-to-b from-muted/30 to-background pt-24 pb-12" id="bawialnia">

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Mouse, Send, Sparkles } from '@lucide/svelte';
 	import Button from '$lib/components/Button.svelte';
-	import bgImage from '$lib/assets/hero.avif?width=1920&format=avif&q=65';
+	import bgImage from '$lib/assets/hero.avif';
 
 	const scrollToSection = (id: string) => {
 		const section = document.getElementById(id);

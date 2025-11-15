@@ -1,24 +1,24 @@
 <script>
 	import { Drum } from '@lucide/svelte';
-	import senso1 from '$lib/assets/sensoryczne/senso-1.avif?width=800&format=avif&q=65';
-	import senso2 from '$lib/assets/sensoryczne/senso-2.avif?width=800&format=avif&q=65';
-	import senso3 from '$lib/assets/sensoryczne/senso-3.avif?width=800&format=avif&q=65';
-	import senso4 from '$lib/assets/sensoryczne/senso-4.avif?width=800&format=avif&q=65';
+	import senso1 from '$lib/assets/sensoryczne/senso-1.avif';
+	import senso2 from '$lib/assets/sensoryczne/senso-2.avif';
+	import senso3 from '$lib/assets/sensoryczne/senso-3.avif';
+	import senso4 from '$lib/assets/sensoryczne/senso-4.avif';
 
-	import majsterkowanie1 from '$lib/assets/maj/majsterkowanie-1.avif?width=800&format=avif&q=65';
-	import majsterkowanie2 from '$lib/assets/maj/majsterkowanie-2.avif?width=800&format=avif&q=65';
-	import majsterkowanie3 from '$lib/assets/maj/majsterkowanie-3.avif?width=800&format=avif&q=65';
-	import majsterkowanie4 from '$lib/assets/maj/majsterkowanie-4.avif?width=800&format=avif&q=65';
+	import majsterkowanie1 from '$lib/assets/maj/majsterkowanie-1.avif';
+	import majsterkowanie2 from '$lib/assets/maj/majsterkowanie-2.avif';
+	import majsterkowanie3 from '$lib/assets/maj/majsterkowanie-3.avif';
+	import majsterkowanie4 from '$lib/assets/maj/majsterkowanie-4.avif';
 
-	import gotowanie1 from '$lib/assets/gotowanie/gotowanie-1.avif?width=800&format=avif&q=65';
-	import gotowanie2 from '$lib/assets/gotowanie/gotowanie-2.avif?width=800&format=avif&q=65';
-	import gotowanie3 from '$lib/assets/gotowanie/gotowanie-3.avif?width=800&format=avif&q=65';
-	import gotowanie4 from '$lib/assets/gotowanie/gotowanie-4.avif?width=800&format=avif&q=65';
+	import gotowanie1 from '$lib/assets/gotowanie/gotowanie-1.avif';
+	import gotowanie2 from '$lib/assets/gotowanie/gotowanie-2.avif';
+	import gotowanie3 from '$lib/assets/gotowanie/gotowanie-3.avif';
+	import gotowanie4 from '$lib/assets/gotowanie/gotowanie-4.avif';
 
-	import dogoterapia1 from '$lib/assets/dogoterapia/dogo-1.avif?width=800&format=avif&q=65';
-	import dogoterapia2 from '$lib/assets/dogoterapia/dogo-2.avif?width=800&format=avif&q=65';
-	import dogoterapia3 from '$lib/assets/dogoterapia/dogo-3.avif?width=800&format=avif&q=65';
-	import dogoterapia4 from '$lib/assets/dogoterapia/dogo-4.avif?width=800&format=avif&q=65';
+	import dogoterapia1 from '$lib/assets/dogoterapia/dogo-1.avif';
+	import dogoterapia2 from '$lib/assets/dogoterapia/dogo-2.avif';
+	import dogoterapia3 from '$lib/assets/dogoterapia/dogo-3.avif';
+	import dogoterapia4 from '$lib/assets/dogoterapia/dogo-4.avif';
 </script>
 
 <section class="bg-linear-to-b from-background to-muted/30 pt-24 pb-12" id="activities">

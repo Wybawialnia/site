@@ -1,6 +1,6 @@
 <script>
 	import { Coffee, Heart, Sparkles, Users } from '@lucide/svelte';
-	import teamPhoto from '$lib/assets/nasze-zdjecie.avif?width=800&format=avif&q=65';
+	import teamPhoto from '$lib/assets/nasze-zdjecie.avif';
 </script>
 
 <section id="about" class="bg-linear-to-b from-background to-muted/30 pt-24 pb-12">
