@@ -24,7 +24,7 @@
 			</div>
 
 			<div
-				class="mb-8 h-full rounded-3xl border-2 border-border bg-card p-8 transition-all hover:border-primary/30"
+				class="mb-8 h-full rounded-3xl border border-border bg-card p-8 transition-all hover:border-primary/30"
 			>
 				<h3 class="mb-6 text-2xl font-bold text-primary">Social Media</h3>
 				<div class="grid grid-cols-1 gap-6 lg:grid-cols-3">
@@ -69,7 +69,7 @@
 			<div class="grid grid-cols-1 items-stretch gap-6 lg:grid-cols-2">
 				<div class="h-full space-y-8">
 					<div
-						class="h-full rounded-3xl border-2 border-border bg-card p-8 transition-all hover:border-primary/30"
+						class="h-full rounded-3xl border border-border bg-card p-8 transition-all hover:border-primary/30"
 					>
 						<h3 class="mb-6 text-2xl font-bold text-primary">Dane kontaktowe</h3>
 
@@ -137,7 +137,7 @@
 					</div>
 				</div>
 				<div
-					class="flex h-full flex-col items-center justify-center overflow-hidden rounded-3xl border-2 border-border bg-card p-0"
+					class="flex h-full flex-col items-center justify-center overflow-hidden rounded-3xl border border-border bg-card p-0"
 				>
 					<iframe
 						title="Mapa dojazdu do WyBawialni"

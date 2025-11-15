@@ -35,7 +35,7 @@
 				<p class="text-xl text-muted-foreground">Zapraszamy codziennie!</p>
 			</div>
 
-			<div class="overflow-hidden rounded-3xl border-2 border-border bg-card shadow-lg">
+			<div class="overflow-hidden rounded-3xl border border-border bg-card shadow-lg">
 				{#each schedule as item, index}
 					<div
 						class="flex items-center justify-between border-b border-border p-6 transition-colors hover:bg-muted/50"
