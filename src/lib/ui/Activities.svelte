@@ -1,5 +1,7 @@
-<script>
+<script lang="ts">
 	import { Drum } from '@lucide/svelte';
+	import EnlargeImg from '$lib/components/EnlargeImg.svelte';
+
 	import senso1 from '$lib/assets/sensoryczne/senso-1.avif?enhanced';
 	import senso2 from '$lib/assets/sensoryczne/senso-2.avif?enhanced';
 	import senso3 from '$lib/assets/sensoryczne/senso-3.avif?enhanced';
@@ -19,6 +21,15 @@
 	import dogoterapia2 from '$lib/assets/dogoterapia/dogo-2.avif?enhanced';
 	import dogoterapia3 from '$lib/assets/dogoterapia/dogo-3.avif?enhanced';
 	import dogoterapia4 from '$lib/assets/dogoterapia/dogo-4.avif?enhanced';
+
+	$: enlargeImg = false;
+	let src: any;
+
+	const enlargeImage = (s: any) => {
+		console.log('enlargeImage called with', s);
+		src = s;
+		enlargeImg = true;
+	};
 </script>
 
 <section class="bg-linear-to-b from-background to-muted/30 pt-24 pb-12" id="activities">
@@ -54,6 +65,14 @@
 							src={senso1}
 							alt={`Zajęcia sensoryczne 1`}
 							class="h-full w-full object-cover"
+							on:click={() => {
+								enlargeImage(senso1);
+							}}
+							on:keypress={() => {
+								enlargeImage(senso1);
+							}}
+							role="button"
+							tabindex="0"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
@@ -61,6 +80,14 @@
 							src={senso2}
 							alt={`Zajęcia sensoryczne 2`}
 							class="h-full w-full object-cover"
+							on:click={() => {
+								enlargeImage(senso2);
+							}}
+							on:keypress={() => {
+								enlargeImage(senso2);
+							}}
+							role="button"
+							tabindex="0"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
@@ -68,6 +95,14 @@
 							src={senso3}
 							alt={`Zajęcia sensoryczne 3`}
 							class="h-full w-full object-cover"
+							on:click={() => {
+								enlargeImage(senso3);
+							}}
+							on:keypress={() => {
+								enlargeImage(senso3);
+							}}
+							role="button"
+							tabindex="0"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
@@ -75,6 +110,14 @@
 							src={senso4}
 							alt={`Zajęcia sensoryczne 4`}
 							class="h-full w-full object-cover"
+							on:click={() => {
+								enlargeImage(senso4);
+							}}
+							on:keypress={() => {
+								enlargeImage(senso4);
+							}}
+							role="button"
+							tabindex="0"
 						/>
 					</div>
 				</div>
@@ -209,3 +252,7 @@
 		</div>
 	</div>
 </section>
+
+{#if enlargeImg}
+	<EnlargeImg {src} on:close={() => (enlargeImg = false)} />
+{/if}

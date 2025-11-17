@@ -106,6 +106,6 @@
 		class="mt-4 flex flex-row items-center justify-center gap-2 text-center text-sm text-muted-foreground"
 	>
 		Realizacja witryny
-		<img src={boroitLogo} class="h-8" alt="Test" />
+		<img src={boroitLogo} class="h-8" alt="BoroIT" />
 	</div>
 </footer>
