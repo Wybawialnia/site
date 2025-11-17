@@ -2,6 +2,10 @@
 	import { Sparkles } from '@lucide/svelte';
 </script>
 
+<svelte:head>
+	<title>Galeria | WyBawialnia Poznań</title>
+</svelte:head>
+
 <section id="gallery" class="relative mx-auto flex min-h-screen items-center justify-center">
 	<div class="pointer-events-none absolute inset-0 bg-white/60"></div>
 

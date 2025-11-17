@@ -1,6 +1,6 @@
 import type { RequestHandler } from './$types';
 
-const BASE_URL = 'https://wybawialnia37.pl';
+const BASE_URL = 'https://www.wybawialnia37.pl';
 const routes = [
     '',
     'gallery'
