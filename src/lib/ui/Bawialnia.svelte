@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { Shapes } from '@lucide/svelte';
 
 	import bawialnia1 from '$lib/assets/bawialnia/bawialnia-glowne.avif?enhanced';
@@ -6,6 +6,15 @@
 	import bawialnia3 from '$lib/assets/bawialnia/zdjecie-szafki.avif?enhanced';
 	import bawialnia4 from '$lib/assets/bawialnia/stolik-szyba.avif?enhanced';
 	import bawialnia5 from '$lib/assets/bawialnia/zdjecie-stolik.avif?enhanced';
+	import EnlargeImg from '$lib/components/EnlargeImg.svelte';
+
+	$: enlargeImg = false;
+	let src: any;
+
+	const enlargeImage = (s: any) => {
+		src = s;
+		enlargeImg = true;
+	};
 </script>
 
 <section class="bg-linear-to-b from-muted/30 to-background pt-24 pb-12" id="bawialnia">
@@ -37,6 +46,14 @@
 						src={bawialnia1}
 						alt="Bawialnia - główna przestrzeń"
 						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+						on:click={() => {
+							enlargeImage(bawialnia1);
+						}}
+						on:keypress={() => {
+							enlargeImage(bawialnia1);
+						}}
+						role="button"
+						tabindex="0"
 					/>
 				</div>
 				<div class="group aspect-square overflow-hidden rounded-2xl bg-muted/50">
@@ -44,6 +61,14 @@
 						src={bawialnia2}
 						alt="Drewniana konstrukcja"
 						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+						on:click={() => {
+							enlargeImage(bawialnia2);
+						}}
+						on:keypress={() => {
+							enlargeImage(bawialnia2);
+						}}
+						role="button"
+						tabindex="0"
 					/>
 				</div>
 				<div class="group aspect-square overflow-hidden rounded-2xl bg-muted/50">
@@ -51,6 +76,14 @@
 						src={bawialnia3}
 						alt="Strefa zabaw"
 						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+						on:click={() => {
+							enlargeImage(bawialnia3);
+						}}
+						on:keypress={() => {
+							enlargeImage(bawialnia3);
+						}}
+						role="button"
+						tabindex="0"
 					/>
 				</div>
 				<div class="group aspect-square overflow-hidden rounded-2xl bg-muted/50">
@@ -58,6 +91,14 @@
 						src={bawialnia4}
 						alt="Zabawki"
 						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+						on:click={() => {
+							enlargeImage(bawialnia4);
+						}}
+						on:keypress={() => {
+							enlargeImage(bawialnia4);
+						}}
+						role="button"
+						tabindex="0"
 					/>
 				</div>
 				<div class="group col-span-2 aspect-2/1 overflow-hidden rounded-2xl bg-muted/50">
@@ -65,6 +106,14 @@
 						src={bawialnia5}
 						alt="Kącik sensoryczny"
 						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+						on:click={() => {
+							enlargeImage(bawialnia5);
+						}}
+						on:keypress={() => {
+							enlargeImage(bawialnia5);
+						}}
+						role="button"
+						tabindex="0"
 					/>
 				</div>
 			</div>
@@ -126,3 +175,7 @@
 		</div>
 	</div>
 </section>
+
+{#if enlargeImg}
+	<EnlargeImg {src} on:close={() => (enlargeImg = false)} />
+{/if}

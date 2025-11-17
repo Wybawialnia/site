@@ -24,7 +24,7 @@
 	$: {
 		try {
 			window.onscroll = () => {
-				if (window.scrollY > 20) {
+				if (window.scrollY > 10) {
 					scrolling = true;
 				} else {
 					scrolling = false;

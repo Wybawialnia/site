@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Button from '$lib/components/Button.svelte';
 
 	import birthdayImg from '$lib/assets/urodziny/urodziny-poziom.avif?enhanced';
@@ -8,7 +8,6 @@
 		Clock,
 		Gift,
 		PartyPopper,
-		Phone,
 		Users,
 		GlassWater,
 		Ticket,
@@ -21,12 +20,21 @@
 		Utensils,
 		Calendar
 	} from '@lucide/svelte';
+	import EnlargeImg from '$lib/components/EnlargeImg.svelte';
 
 	const scrollToContact = () => {
 		const contactSection = document.getElementById('contact');
 		if (contactSection) {
 			contactSection.scrollIntoView({ behavior: 'smooth' });
 		}
+	};
+
+	$: enlargeImg = false;
+	let src: any;
+
+	const enlargeImage = (s: any) => {
+		src = s;
+		enlargeImg = true;
 	};
 </script>
 
@@ -157,6 +165,14 @@
 						src={birthdayImg}
 						alt="Zdjęcie przedstawiające przyjęcie urodzinowe w WyBawialni"
 						class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+						on:click={() => {
+							enlargeImage(birthdayImg);
+						}}
+						on:keypress={() => {
+							enlargeImage(birthdayImg);
+						}}
+						role="button"
+						tabindex="0"
 					/>
 				</div>
 				<div
@@ -331,3 +347,7 @@
 		</div>
 	</div>
 </section>
+
+{#if enlargeImg}
+	<EnlargeImg {src} on:close={() => (enlargeImg = false)} />
+{/if}

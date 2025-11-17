@@ -1,6 +1,15 @@
-<script>
+<script lang="ts">
 	import { Coffee, Heart, Sparkles, Users } from '@lucide/svelte';
 	import teamPhoto from '$lib/assets/nasze-zdjecie.avif?enhanced';
+	import EnlargeImg from '$lib/components/EnlargeImg.svelte';
+
+	$: enlargeImg = false;
+	let src: any;
+
+	const enlargeImage = (s: any) => {
+		src = s;
+		enlargeImg = true;
+	};
 </script>
 
 <section id="about" class="bg-linear-to-b from-background to-muted/30 pt-24 pb-12">
@@ -67,6 +76,14 @@
 							src={teamPhoto}
 							alt="Zdjęcie zespołu WyBawialni"
 							class="aspect-square h-full w-full rounded-xl object-cover transition-transform duration-700 group-hover:scale-105"
+							on:click={() => {
+								enlargeImage(teamPhoto);
+							}}
+							on:keypress={() => {
+								enlargeImage(teamPhoto);
+							}}
+							role="button"
+							tabindex="0"
 						/>
 					</div>
 				</div>
@@ -156,3 +173,7 @@
 		</div>
 	</div>
 </section>
+
+{#if enlargeImg}
+	<EnlargeImg {src} on:close={() => (enlargeImg = false)} />
+{/if}

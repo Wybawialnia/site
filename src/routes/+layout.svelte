@@ -2,6 +2,7 @@
 	import '../app.css';
 	import Navbar from '$lib/ui/Navbar.svelte';
 	import Footer from '$lib/ui/Footer.svelte';
+	import 'leaflet/dist/leaflet.css';
 
 	let { children } = $props();
 

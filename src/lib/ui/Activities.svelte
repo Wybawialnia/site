@@ -26,7 +26,6 @@
 	let src: any;
 
 	const enlargeImage = (s: any) => {
-		console.log('enlargeImage called with', s);
 		src = s;
 		enlargeImg = true;
 	};
@@ -138,6 +137,14 @@
 							src={majsterkowanie1}
 							alt={`Zajęcia majsterkowania 1`}
 							class="h-full w-full object-cover"
+							on:click={() => {
+								enlargeImage(majsterkowanie1);
+							}}
+							on:keypress={() => {
+								enlargeImage(majsterkowanie1);
+							}}
+							role="button"
+							tabindex="0"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
@@ -145,6 +152,14 @@
 							src={majsterkowanie2}
 							alt={`Zajęcia majsterkowania 2`}
 							class="h-full w-full object-cover"
+							on:click={() => {
+								enlargeImage(majsterkowanie2);
+							}}
+							on:keypress={() => {
+								enlargeImage(majsterkowanie2);
+							}}
+							role="button"
+							tabindex="0"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
@@ -152,6 +167,14 @@
 							src={majsterkowanie3}
 							alt={`Zajęcia majsterkowania 3`}
 							class="h-full w-full object-cover"
+							on:click={() => {
+								enlargeImage(majsterkowanie3);
+							}}
+							on:keypress={() => {
+								enlargeImage(majsterkowanie3);
+							}}
+							role="button"
+							tabindex="0"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
@@ -159,6 +182,14 @@
 							src={majsterkowanie4}
 							alt={`Zajęcia majsterkowania 4`}
 							class="h-full w-full object-cover"
+							on:click={() => {
+								enlargeImage(majsterkowanie4);
+							}}
+							on:keypress={() => {
+								enlargeImage(majsterkowanie4);
+							}}
+							role="button"
+							tabindex="0"
 						/>
 					</div>
 				</div>
@@ -179,6 +210,14 @@
 							src={gotowanie1}
 							alt={`Zajęcia gotowania 1`}
 							class="h-full w-full object-cover"
+							on:click={() => {
+								enlargeImage(gotowanie1);
+							}}
+							on:keypress={() => {
+								enlargeImage(gotowanie1);
+							}}
+							role="button"
+							tabindex="0"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
@@ -186,6 +225,14 @@
 							src={gotowanie2}
 							alt={`Zajęcia gotowania 2`}
 							class="h-full w-full object-cover"
+							on:click={() => {
+								enlargeImage(gotowanie2);
+							}}
+							on:keypress={() => {
+								enlargeImage(gotowanie2);
+							}}
+							role="button"
+							tabindex="0"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
@@ -193,6 +240,14 @@
 							src={gotowanie3}
 							alt={`Zajęcia gotowania 3`}
 							class="h-full w-full object-cover"
+							on:click={() => {
+								enlargeImage(gotowanie3);
+							}}
+							on:keypress={() => {
+								enlargeImage(gotowanie3);
+							}}
+							role="button"
+							tabindex="0"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
@@ -200,6 +255,14 @@
 							src={gotowanie4}
 							alt={`Zajęcia gotowania 4`}
 							class="h-full w-full object-cover"
+							on:click={() => {
+								enlargeImage(gotowanie4);
+							}}
+							on:keypress={() => {
+								enlargeImage(gotowanie4);
+							}}
+							role="button"
+							tabindex="0"
 						/>
 					</div>
 				</div>
@@ -220,6 +283,14 @@
 							src={dogoterapia1}
 							alt={`Zajęcia z dogoterapi 1`}
 							class="h-full w-full object-cover"
+							on:click={() => {
+								enlargeImage(dogoterapia1);
+							}}
+							on:keypress={() => {
+								enlargeImage(dogoterapia1);
+							}}
+							role="button"
+							tabindex="0"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
@@ -227,6 +298,14 @@
 							src={dogoterapia2}
 							alt={`Zajęcia z dogoterapi 2`}
 							class="h-full w-full object-cover"
+							on:click={() => {
+								enlargeImage(dogoterapia2);
+							}}
+							on:keypress={() => {
+								enlargeImage(dogoterapia2);
+							}}
+							role="button"
+							tabindex="0"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
@@ -234,6 +313,14 @@
 							src={dogoterapia3}
 							alt={`Zajęcia z dogoterapi 3`}
 							class="h-full w-full object-cover"
+							on:click={() => {
+								enlargeImage(dogoterapia3);
+							}}
+							on:keypress={() => {
+								enlargeImage(dogoterapia3);
+							}}
+							role="button"
+							tabindex="0"
 						/>
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
@@ -241,6 +328,14 @@
 							src={dogoterapia4}
 							alt={`Zajęcia z dogoterapi 4`}
 							class="h-full w-full object-cover"
+							on:click={() => {
+								enlargeImage(dogoterapia4);
+							}}
+							on:keypress={() => {
+								enlargeImage(dogoterapia4);
+							}}
+							role="button"
+							tabindex="0"
 						/>
 					</div>
 				</div>
