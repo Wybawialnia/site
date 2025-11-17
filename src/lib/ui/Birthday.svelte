@@ -36,7 +36,18 @@
 		src = s;
 		enlargeImg = true;
 	};
+
+	const openCalendly = () => {
+		Calendly.initPopupWidget({
+			url: 'https://calendly.com/wybawialnia37/30min?month=2025-11'
+		});
+	};
 </script>
+
+<svelte:head>
+	<script src="https://assets.calendly.com/assets/external/widget.js" defer></script>
+	<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+</svelte:head>
 
 <section id="birthday" class="bg-linear-to-b from-muted/30 to-background py-24">
 	<div class="container mx-auto px-4">
@@ -337,7 +348,7 @@
 				</p>
 				<Button
 					size="lg"
-					on:click={scrollToContact}
+					on:click={openCalendly}
 					clazz="rounded-full bg-secondary px-8 py-6 text-lg font-semibold text-secondary-foreground shadow-lg hover:bg-secondary/90"
 				>
 					<Calendar class="mr-2 h-8 w-8" />
