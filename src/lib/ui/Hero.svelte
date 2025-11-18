@@ -15,6 +15,7 @@
 	<enhanced:img
 		src={bgImage}
 		loading="eager"
+		sizes="min(1920px, 100vw)"
 		decoding="async"
 		fetchpriority="high"
 		alt="Obrazek tła"
