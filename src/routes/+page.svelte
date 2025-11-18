@@ -10,7 +10,7 @@
 </script>
 
 <svelte:head>
-	<title>WyBawialnia Poznań | Bawialnia i kawiarnia w Poznaniu</title>
+	<title>WyBawialnia Poznań | Bawialnia i kawiarnia dla dzieci</title>
 </svelte:head>
 
 <Hero />
