@@ -91,7 +91,7 @@
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
 						<enhanced:img
-							src={senso3}
+							src=""
 							alt={`Zajęcia sensoryczne 3`}
 							class="h-full w-full object-cover"
 							on:click={() => {
@@ -106,7 +106,7 @@
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
 						<enhanced:img
-							src={senso4}
+							src=""
 							alt={`Zajęcia sensoryczne 4`}
 							class="h-full w-full object-cover"
 							on:click={() => {
