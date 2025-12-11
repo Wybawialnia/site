@@ -91,14 +91,14 @@
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
 						<enhanced:img
-							src=""
-							alt={`Zajęcia sensoryczne 3`}
+							src={senso1}
+							alt={`Zajęcia sensoryczne 1`}
 							class="h-full w-full object-cover"
 							on:click={() => {
-								enlargeImage(senso3);
+								enlargeImage(senso1);
 							}}
 							on:keypress={() => {
-								enlargeImage(senso3);
+								enlargeImage(senso1);
 							}}
 							role="button"
 							tabindex="0"
@@ -106,14 +106,14 @@
 					</div>
 					<div class="aspect-square overflow-hidden rounded-2xl bg-muted">
 						<enhanced:img
-							src=""
-							alt={`Zajęcia sensoryczne 4`}
+							src={senso2}
+							alt={`Zajęcia sensoryczne 2`}
 							class="h-full w-full object-cover"
 							on:click={() => {
-								enlargeImage(senso4);
+								enlargeImage(senso2);
 							}}
 							on:keypress={() => {
-								enlargeImage(senso4);
+								enlargeImage(senso2);
 							}}
 							role="button"
 							tabindex="0"
