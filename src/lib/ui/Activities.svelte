@@ -4,8 +4,6 @@
 
 	import senso1 from '$lib/assets/sensoryczne/senso-1.avif?enhanced';
 	import senso2 from '$lib/assets/sensoryczne/senso-2.avif?enhanced';
-	import senso3 from '$lib/assets/sensoryczne/senso-3.avif?enhanced';
-	import senso4 from '$lib/assets/sensoryczne/senso-4.avif?enhanced';
 
 	import majsterkowanie1 from '$lib/assets/maj/majsterkowanie-1.avif?enhanced';
 	import majsterkowanie2 from '$lib/assets/maj/majsterkowanie-2.avif?enhanced';
